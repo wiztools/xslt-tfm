@@ -4,7 +4,7 @@
 
     <groupId>org.wiztools</groupId>
     <artifactId>xslt-transform</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>xslt-transform</name>
@@ -15,9 +15,9 @@
     </properties>
 
     <scm>
-        <connection>scm:svn:http://wiztools.googlecode.com/svn/xslt-transform/tags/xslt-transform-0.1.0</connection>
-        <developerConnection>scm:svn:https://wiztools.googlecode.com/svn/xslt-transform/tags/xslt-transform-0.1.0</developerConnection>
-        <url>scm:svn:https://wiztools.googlecode.com/svn/xslt-transform/tags/xslt-transform-0.1.0</url>
+        <connection>scm:svn:http://wiztools.googlecode.com/svn/xslt-transform/trunk/</connection>
+        <developerConnection>scm:svn:https://wiztools.googlecode.com/svn/xslt-transform/trunk/</developerConnection>
+        <url>http://code.google.com/p/wiztools/source/browse/</url>
     </scm>
 
     <build>
