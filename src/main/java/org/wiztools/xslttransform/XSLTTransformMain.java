@@ -20,7 +20,10 @@ public class XSLTTransformMain {
     private static final int EXIT_CODE_IO_EXCEPTION = 3;
     
     private static void printHelp(PrintStream out) {
-        out.println("Usage: java -jar xslt-transform-VERSION.jar stylesheet file [file ...]");
+        out.println("Usage: java -jar xslt-transform-VERSION.jar stylesheet xml [xml ...]");
+        out.println("Where:");
+        out.println("\tstylesheet\t: URL or file-system location of the XSL");
+        out.println("\txml  ...  \t: URL or file-system location of the XMLs");
     }
     
     private static InputStream getStream(String str) throws IOException {
