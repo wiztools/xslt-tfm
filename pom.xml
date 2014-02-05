@@ -8,16 +8,16 @@
     <packaging>jar</packaging>
 
     <name>xslt-transform</name>
-    <url>http://wiztools.org/</url>
+    <url>https://github.com/wiztools/xslt-transform</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <scm>
-        <connection>scm:svn:http://wiztools.googlecode.com/svn/xslt-transform/trunk/</connection>
-        <developerConnection>scm:svn:https://wiztools.googlecode.com/svn/xslt-transform/trunk/</developerConnection>
-        <url>http://code.google.com/p/wiztools/source/browse/</url>
+        <connection>scm:git:https://github.com/wiztools/xslt-transform.git</connection>
+        <developerConnection>scm:git:https://github.com/wiztools/xslt-transform.git</developerConnection>
+        <url>https://github.com/wiztools/xslt-transform</url>
     </scm>
 
     <build>
@@ -42,14 +42,6 @@
                             <mainClass>org.wiztools.xslttransform.XSLTTransformMain</mainClass>
                         </manifest>
                     </archive>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.3.1</version>
-                <configuration>
-                    <tagBase>https://wiztools.googlecode.com/svn/xslt-transform/tags</tagBase>
                 </configuration>
             </plugin>
         </plugins>
